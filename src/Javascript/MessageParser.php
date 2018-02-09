@@ -103,6 +103,6 @@ class MessageParser
      */
     protected function createUploadedFile()
     {
-        return new UploadedFile('fakefile', 'fakefile', null, null, 0, true);
+        return new UploadedFile('fakefile', 'fakefile', null, null, null, true);
     }
 }
